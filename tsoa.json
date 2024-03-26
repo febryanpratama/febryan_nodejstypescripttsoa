@@ -1,0 +1,27 @@
+{
+    "entryFile": "src/app.ts",
+    "noImplicitAdditionalProperties": "throw-on-extras",
+    "controllerPathGlobs": ["src/**/*Controller.ts"],
+    "spec": {
+      "outputDirectory": "./dist",
+      "specVersion": 3,
+      "securityDefinitions": {
+        "bearerAuth": {
+          "type": "http",
+          "scheme": "bearer",
+          "bearerFormat": "JWT"
+        }
+      }
+    },
+    
+    "routes": {
+      "routesDir": "./src",
+      "authenticationModule": "./src/middleware/context.ts"
+    },
+    "swagger": {
+        "outputDirectory": "./dist",
+        "spec": "./dist/swagger.json",
+        "routesDir": "./src/controllers",
+        "entryFile": "./src/app.ts"
+    }
+}

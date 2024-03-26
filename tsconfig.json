@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "outDir": "./dist",
+    "lib": ["es2021", "dom"]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"],
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsoa routes",
+    "prestart": "npm run build"
+  },
+  "tsoa": {"routesDir": "./src/routes"}
+}

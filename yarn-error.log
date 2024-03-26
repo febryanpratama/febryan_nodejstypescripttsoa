@@ -1,0 +1,31 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Asus\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Users\Asus\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Asus\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY;C:\Users\Asus\Downloads\flutter\flutter\bin;C:\Users\Asus\Downloads\flutter\flutter\bin\cache\dart-sdk\bin;C:\Users\Asus\AppData\Local\Pub\Cache\bin;C:\laragon\bin\php\php8.0.3;C:\Users\Asus\Downloads\flutter\flutter\bin\cache\dart-sdk\bin;C:\Program Files\Android\Android Studio\jre\bin;C:\Users\Asus\Downloads\mvn\apache-maven-3.8.1;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PostgreSQL\15\bin;C:\Users\Asus\Downloads\flutter\flutter\bin\cache\dart-sdk\bin;C:\Program Files\Go\bin;%NVM_HOME%;%NVM_SYMLINK%;C:\laragon\bin;C:\laragon\bin\apache\httpd-2.4.47-win64-VS16\bin;C:\laragon\bin\composer;C:\laragon\bin\git\bin;C:\laragon\bin\git\cmd;C:\laragon\bin\git\mingw64\bin;C:\laragon\bin\git\usr\bin;C:\laragon\bin\laragon\utils;C:\laragon\bin\mysql\mariadb-10.5.22-winx64\bin;C:\laragon\bin\nginx\nginx-1.19.10;C:\laragon\bin\ngrok;C:\laragon\bin\nodejs;C:\laragon\bin\notepad++;C:\laragon\bin\php\php-7.3;C:\laragon\bin\redis\redis-x64-3.2.100;C:\laragon\bin\telnet;C:\laragon\usr\bin;C:\Users\Asus\AppData\Local\Yarn\config\global\node_modules\.bin;C:\Users\Asus\AppData\Roaming\Composer\vendor\bin;C:\Users\Asus\AppData\Roaming\npm;C:\Users\Asus\AppData\Local\Microsoft\WindowsApps;C:\Users\Asus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Asus\AppData\Local\GitHubDesktop\bin;C:\Users\Asus\Downloads\flutter\flutter\bin;C:\Users\Asus\Downloads\flutter\flutter\bin\cache\dart-sdk\bin;C:\Users\Asus\AppData\Local\Pub\Cache\bin;C:\Program Files\Android\Android Studio\jre\bin;E:\PhpStorm 2022.2\bin;C:\Program Files\JetBrains\WebStorm 2022.2\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.1\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.3\bin;C:\Program Files\JetBrains\DataGrip 2022.3.3\bin;C:\Users\Asus\go\bin;C:\Users\Asus\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: Can't answer a question unless a user TTY
+      at ConsoleReporter.question (C:\Users\Asus\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:92864:59)
+      at Object.<anonymous> (C:\Users\Asus\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:85054:38)
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Asus\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\Asus\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
